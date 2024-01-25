@@ -1,0 +1,48 @@
+#nav {
+  display: grid;
+  border-radius: 10px;
+  background-color: #114b5f;
+  color: #fdfcf8;
+}
+#navLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+#navCenter {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+#navRight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-self: end;
+  margin-right: 10px;
+}
+
+#nav {
+    display: grid;
+    border-radius: 10px;
+    background-color: #114b5f;
+    color: #fdfcf8;
+    margin: 0 auto;
+  }
+  #navLeft,
+  #navCenter,
+  #navRight {
+    display: grid;
+    grid-gap: 10px; /* adiciona espaço de 10px entre as colunas */
+  }
+  #navLeft {
+    grid-template-columns: 90px 90px 90px 90px;
+  }
+  #navCenter {
+    grid-template-columns: 1fr;
+  }
+  #navRight {
+    grid-template-columns: 90px 90px 90px 90px;
+    justify-self: end;
+    margin-right: 10px;
+  }
